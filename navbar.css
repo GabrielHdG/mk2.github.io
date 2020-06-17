@@ -49,4 +49,37 @@
   #last-row > img{
     border: 1px solid aliceblue;
   }
+
+  #container-bottom{
+    margin-top: 60px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #contact{
+    position: absolute;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  #contact > strong{
+    padding-top: 30px;
+    padding-left: 41px;
+  }
+
+  #contact > h5{
+    font-size: 12pt;
+    margin-bottom: 2px;
+    padding-left: 41px;
+  }
+
+
+  #bottom-do-bottom{
+    height: 250px;
+    max-width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+  }
 }
