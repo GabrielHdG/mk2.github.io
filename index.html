@@ -10,36 +10,17 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a
-        class="navbar-brand"
-        href="#"
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon pl-5" id="toggle-click"></span
-      ></a>
+    <div id="nav-placeholder"></div>
 
-      <ul class="navbar-nav" id="navbar-display" style="display: none;">
-        <li class="nav-item active">
-          <a class="nav-link" style="font-size: 16pt;" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="font-size: 16pt;" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" style="font-size: 16pt;" href="#">Dropdown</a>
-        </li>
-      </ul>
-    </nav>
+    <script>
+      $.get("navbar.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
 
     <div class="d-flex justify-content-center" id="logo">
       <img
@@ -51,14 +32,14 @@
       />
     </div>
 
-    <div class="d-flex flex-column pb-4" id="what-is">
+    <div class="what-is d-flex flex-column pb-4">
       <h2
         class="text-center font-weight-bold pt-3 pb-4 w-50 m-auto"
         style="font-size: 25pt;"
       >
         Pintura Elétrostatica
       </h2>
-      <h3 class="pt-4" style="margin-left: 37px; height: 60px;">O que é?</h3>
+      <h3 class="pt-4" style="height: 60px;">O que é?</h3>
       <h5 class="m-auto" id="text">
         Nullam maximus erat vitae erat congue convallis.
       </h5>
@@ -74,8 +55,8 @@
       </h5>
     </div>
 
-    <div class="d-flex flex-column pb-4" id="what-is">
-      <h3 class="pt-4" style="margin-left: 37px; height: 60px;">
+    <div class="what-is d-flex flex-column pb-4">
+      <h3 class="pt-4" style="height: 60px;">
         Como Funciona
       </h3>
       <h5 class="m-auto" id="text">
@@ -95,8 +76,8 @@
       </h5>
     </div>
 
-    <div class="what-is-2" style="border-bottom: none;" id="what-is">
-      <h3 class="pt-4 pb-3 w-50" style="margin-left: 37px;">
+    <div class="what-is" style="border-bottom: none;">
+      <h3 class="pt-4 pb-3 w-50">
         O Serviço que Oferecemos
       </h3>
       <h5 class="text-justify m-auto" id="text">
@@ -156,6 +137,7 @@
     </div>
 
     <script src="js/index.js"></script>
+    <script src="js/navbar.js"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

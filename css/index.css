@@ -1,0 +1,80 @@
+@font-face{
+  src: url(../fonts/robot.ttf);
+  font-family: roboto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h2,
+  h3,
+  h5 {
+    font-family: roboto;
+  }
+
+  #logo {
+    z-index: -2;
+  }
+
+  #toggle-click {
+    margin-left: 15px;
+  }
+
+  #text {
+    width: 80%;
+  }
+
+  .what-is {
+    border-bottom: 2px solid whitesmoke;
+  }
+
+  .what-is > h3 {
+    margin-left: 35px;
+  }
+
+  .what-is .painting {
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+  }
+
+  #last-row {
+    width: 80%;
+    height: 80%;
+  }
+
+  #last-row > img {
+    border: 1px solid aliceblue;
+    height: 100px;
+  }
+
+  #container-bottom {
+    margin-top: 60px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #contact {
+    position: absolute;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #contact > strong {
+    padding-left: 35px;
+    padding-top: 10px;
+  }
+
+  #contact > h5 {
+    font-size: 12pt;
+    margin-bottom: 2px;
+    padding-left: 35px;
+  }
+
+  #bottom-do-bottom {
+    height: 250px;
+    max-width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+  }
+}
