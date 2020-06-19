@@ -11,19 +11,19 @@
   #main-catalogo {
     height: auto;
     background-color: whitesmoke;
-    padding: 10px 0;
+    padding: 10px 3px;
   }
 
   #container-img {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
   .img-container {
     border: 1px solid black;
-    margin: 3px 3px;
+    margin: 3px 0;
   }
 
   .img-container h6 {
