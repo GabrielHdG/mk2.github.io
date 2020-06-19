@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   src: url(../fonts/robot.ttf);
   font-family: roboto;
 }
@@ -10,12 +10,17 @@
     font-family: roboto;
   }
 
-  #logo {
-    z-index: -2;
-  }
-
   #toggle-click {
     margin-left: 15px;
+  }
+
+  #logo {
+    background-image: url(../images/logo.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
+    max-width: 100%;
+    margin-bottom: 25px;
   }
 
   #text {
@@ -24,6 +29,7 @@
 
   .what-is {
     border-bottom: 2px solid whitesmoke;
+    margin-top: 25px;
   }
 
   .what-is > h3 {

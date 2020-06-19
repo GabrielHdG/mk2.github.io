@@ -14,31 +14,17 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
+    <div class="d-flex justify-content-center" id="logo"></div>
+
     <div id="nav-placeholder"></div>
 
     <script>
-      $.get("navbar.html","index.html", function (data) {
+      $.get("navbar.html", "index.html", function (data) {
         $("#nav-placeholder").replaceWith(data);
       });
     </script>
 
-    <div class="d-flex justify-content-center" id="logo">
-      <img
-        class="p-5"
-        width="260px"
-        height="340px"
-        src="images/sample-logo-design-png-3.png"
-        alt=""
-      />
-    </div>
-
     <div class="what-is d-flex flex-column pb-4">
-      <h2
-        class="text-center font-weight-bold pt-3 pb-4 w-50 m-auto"
-        style="font-size: 25pt;"
-      >
-        Pintura Elétrostatica
-      </h2>
       <h3 class="pt-4" style="height: 60px;">O que é?</h3>
       <h5 class="m-auto" id="text">
         Nullam maximus erat vitae erat congue convallis.

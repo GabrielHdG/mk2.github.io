@@ -56,10 +56,11 @@
   }
 
   .navbar {
-    background-color: #333;
     position: relative;
     background-image: none;
     height: auto;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
   }
 
   .navbar-nav > li {
@@ -83,11 +84,11 @@
   }
 
   .navbar a {
-    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
+    color: black;
   }
 
   .navbar a.icon {
@@ -95,6 +96,10 @@
     left: 0;
     top: 0;
     width: 100%;
+  }
+
+  #icon-1{
+    color: #333;
   }
 
   .active {

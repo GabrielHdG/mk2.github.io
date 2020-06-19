@@ -4,8 +4,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  h2,h6 {
+  h2,
+  h6 {
     font-family: roboto;
+  }
+
+  #catalogo{
+    margin-top: 25px;
   }
 
   #main-catalogo {
@@ -16,7 +21,7 @@
 
   #container-img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -28,5 +33,25 @@
 
   .img-container h6 {
     padding-top: 6px;
+  }
+
+  #warning-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 270px;
+    margin-top: 60px;
+    background-color: whitesmoke;
+  }
+
+  #warning-container > h2 {
+    font-size: 19pt;
+    margin-left: 22px;
+    padding-top: 12px;
+  }
+
+  #warning-container ul > li {
+    padding: 2px 0;
   }
 }
