@@ -3,6 +3,10 @@
   font-family: simplifica;
 }
 
+.navbar a:link .fa {
+  color: white;
+}
+
 .navbar {
   border-bottom: 1px solid white;
   overflow: hidden;
@@ -58,11 +62,11 @@
     height: auto;
   }
 
-  .navbar-nav > li{
+  .navbar-nav > li {
     height: 41px;
   }
 
-  .navbar-nav li > a{
+  .navbar-nav li > a {
     font-size: 17pt;
     letter-spacing: 2px;
   }
