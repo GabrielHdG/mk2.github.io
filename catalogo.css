@@ -1,0 +1,53 @@
+@font-face {
+  src: url(../fonts/robot.ttf);
+  font-family: roboto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  h2,
+  h6 {
+    font-family: roboto;
+  }
+
+  #main-catalogo {
+    height: auto;
+    background-color: whitesmoke;
+    padding: 10px 3px;
+  }
+
+  #container-img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .img-container {
+    border: 1px solid black;
+    margin: 3px 0;
+  }
+
+  .img-container h6 {
+    padding-top: 6px;
+  }
+
+  #warning-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 270px;
+    margin-top: 60px;
+    background-color: whitesmoke;
+  }
+
+  #warning-container > h2 {
+    font-size: 19pt;
+    margin-left: 22px;
+    padding-top: 12px;
+  }
+
+  #warning-container ul > li {
+    padding: 2px 0;
+  }
+}
