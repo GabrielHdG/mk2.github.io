@@ -4,24 +4,21 @@
 }
 
 .navbar a:link .fa {
-  color: #333
+  color: #333;
 }
 
 .navbar {
-  border-bottom: 1px solid white;
   overflow: hidden;
   height: 200px;
   background-image: url(images/bg-1.jpg);
   background-size: cover;
-  background-color: white;
 }
 
 .nav-link {
-  color: white;
+  color: #333;
   font-size: 18pt;
   font-weight: 400;
   position: relative;
-  color: white;
   text-decoration: none;
 }
 
@@ -65,6 +62,10 @@
     background-color: white;
   }
 
+  .icon {
+    background-color: white;
+  }
+
   .navbar-nav > li {
     height: 41px;
   }
@@ -100,12 +101,11 @@
     width: 100%;
   }
 
-  #icon-1{
+  #icon-1 {
     color: #333;
   }
 
   .active {
-    background-color: #4caf50;
     color: #333;
   }
 }
