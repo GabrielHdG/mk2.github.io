@@ -34,14 +34,4 @@
   .img-container h6 {
     padding-top: 6px;
   }
-
-  #warning-container > h2 {
-    font-size: 19pt;
-    margin-left: 22px;
-    padding-top: 12px;
-  }
-
-  #warning-container ul > li {
-    padding: 2px 0;
-  }
 }
