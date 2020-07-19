@@ -4,7 +4,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  h2,
+  h2, h4,
   h6 {
     font-family: roboto;
   }
