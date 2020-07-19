@@ -9,7 +9,7 @@
     font-family: roboto;
   }
 
-  #catalogo{
+  #catalogo {
     margin-top: 25px;
   }
 
@@ -33,5 +33,15 @@
 
   .img-container h6 {
     padding-top: 6px;
+  }
+
+  #sample-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+  }
+
+  #sample-container > a {
+    margin: auto;
   }
 }
