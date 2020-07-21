@@ -82,4 +82,9 @@
     margin: 0;
     background-color: whitesmoke;
   }
+  
+  #gallery-text{
+    color: black;
+    font-weight: bold;
+  }
 }
