@@ -14,7 +14,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/catalogo.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -25,30 +25,13 @@
       id="logo"
     ></div>
 
-    <nav class="navbar navbar-expand d-flex flex-column p-0 m-0">
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars" id="icon-1"></i>
-      </a>
-      <ul class="navbar-nav" id="nav-nav">
-        <li class="nav-item">
-          <a href="../index.html" class="nav-link py-2 text-center">INÍCIO</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link py-2 text-center">SOBRE NÓS</a>
-        </li>
-        <li class="nav-item">
-          <a href="../catalogo.html" class="nav-link py-2 text-center"
-            >CATÁLOGO</a
-          >
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link py-2 text-center">GALERIA</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link py-2 text-center">CONTATO</a>
-        </li>
-      </ul>
-    </nav>
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $.get("../navbar_2.html", "pink.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
 
     <script src="../js/navbar.js"></script>
 
