@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <title>MK2</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="d-flex justify-content-center" id="logo"></div>
+
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $.get("navbar.html", "gallery.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+
+    <div class="gallery">
+      <h3>
+        Galeria
+      </h3>
+      <h5>Abaixo é possível visualizar alguns dos nossos trabalhos</h5>
+    </div>
+
+    <div class="gallery-container">
+      <div class="container-gallery-img">
+        <h5 class="">Amarelo - PTU-6</h5>
+        <img class="gallery-painting" src="images/paint.jpg" alt="" />
+      </div>
+      <div class="container-gallery-img">
+        <h5 class="">Amarelo - PTU-6</h5>
+        <img class="gallery-painting" src="images/paint.jpg" alt="" />
+      </div>
+      <div class="container-gallery-img">
+        <h5 class="">Amarelo - PTU-6</h5>
+        <img class="gallery-painting" src="images/paint.jpg" alt="" />
+      </div>
+      <div class="container-gallery-img">
+        <h5 class="">Amarelo - PTU-6</h5>
+        <img class="gallery-painting" src="images/paint.jpg" alt="" />
+      </div>
+      <div class="container-gallery-img">
+        <h5 class="">Amarelo - PTU-6</h5>
+        <img class="gallery-painting" src="images/paint.jpg" alt="" />
+      </div>
+      <div class="container-gallery-img">
+        <h5 class="">Amarelo - PTU-6</h5>
+        <img class="gallery-painting" src="images/paint.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="row" id="container-bottom">
+      <div class="d-flex flex-column" id="contact">
+        <strong style="font-size: 15pt;"><b>Contato</b></strong>
+        <h5>contact@businessname.com</h5>
+        <h5>Whatsap: 1 2345-6789</h5>
+        <h5>Fixo: 9 8765-4321</h5>
+        <h5>R. Opala, 98 - Recreio Campestre Jóia</h5>
+      </div>
+      <div
+        class="w-100 row align-items-end justify-content-center"
+        id="bottom-do-bottom"
+      >
+        <p class="text-center">
+          &copy; 2010
+          <script>
+            new Date().getFullYear() > 2010 &&
+              document.write("-" + new Date().getFullYear());
+          </script>
+          MK2.
+        </p>
+      </div>
+    </div>
+
+    <script src="js/navbar.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
