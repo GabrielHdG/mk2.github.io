@@ -1,36 +1,42 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .gallery h3 {
-    padding-top: 24px;
-    margin-left: 35px;
-    margin-bottom: 8px;
+    padding-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .gallery {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .gallery h5 {
-    margin-left: 35px;
-    width: 305px;
+    width: 15em;
   }
 
   .gallery-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 1.875em;
+    padding-bottom: 1.875em;
   }
 
-  .gallery-container .container-gallery-img{
-      margin-bottom: 30px;
-      background-color: whitesmoke;
-      padding-bottom: 20px;
+  .gallery-container .container-gallery-img {
+    margin-bottom: 1.875em;
+    background-color: whitesmoke;
+    padding-bottom: 1.25em;
   }
 
   .gallery-container .gallery-painting {
     max-width: 100%;
   }
 
-  .gallery-container .container-gallery-img> h5{
-      text-align: center;
-      margin-top: 10px;
-      margin-bottom: 10px;
+  .gallery-container .container-gallery-img > h5 {
+    text-align: center;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
   }
 }
