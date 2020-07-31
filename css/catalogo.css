@@ -4,8 +4,14 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  h2, h4,
+  h2,
+  h4,
   h6 {
+    font-family: roboto;
+  }
+
+  ul,
+  li {
     font-family: roboto;
   }
 
@@ -44,4 +50,24 @@
   #sample-container > a {
     margin: auto;
   }
+
+  .warning-box-son {
+    margin-top: 2.5em;
+    background-color: whitesmoke;
+    margin-left: 0;
+    padding: 2em 0;
+  }
+
+  .warning-title{
+    list-style: none;
+    text-align: center;
+    margin-bottom: .7em;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+
+  .warning-text{
+    margin-left: 40px;
+  }
+
 }
