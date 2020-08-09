@@ -35,6 +35,8 @@
   .img-container {
     border: 1px solid black;
     margin: 3px 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .img-container h6 {
@@ -58,16 +60,23 @@
     padding: 2em 0;
   }
 
-  .warning-title{
+  .warning-title {
     list-style: none;
     text-align: center;
-    margin-bottom: .7em;
+    margin-bottom: 0.7em;
     font-size: 15pt;
     font-weight: bold;
   }
 
-  .warning-text{
-    margin-left: 40px;
+  .warning-text {
+    margin-left: 27.5px;
   }
 
+  .fa-check {
+    color: #00ff00;
+  }
+
+  .fa-times {
+    color: #ff2400;
+  }
 }
