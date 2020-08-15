@@ -42,13 +42,14 @@
     width: 50%;
     height: 250px;
     border: 1px solid whitesmoke;
-  }  
+  }
 
   .gallery-container .gallery-painting {
     max-width: 100%;
   }
 
   .gallery-container .container-gallery-img > h5 {
+    width: 100%;
     text-align: center;
     margin-top: 0.625em;
     margin-bottom: 0.625em;
