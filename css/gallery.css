@@ -28,7 +28,21 @@
     margin-bottom: 1.875em;
     background-color: whitesmoke;
     padding-bottom: 1.25em;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .gallery-container .gallery-painting-1 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid whitesmoke;
+  }
+
+  .gallery-container .gallery-painting-2 {
+    width: 50%;
+    height: 250px;
+    border: 1px solid whitesmoke;
+  }  
 
   .gallery-container .gallery-painting {
     max-width: 100%;
