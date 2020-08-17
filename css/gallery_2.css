@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(2, 90px);
     grid-template-rows: repeat(16, 90px);
+    margin-top: 1.875em;
   }
 
   .g2-im {
