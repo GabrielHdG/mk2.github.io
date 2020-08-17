@@ -26,7 +26,7 @@
 
   .g2-im-3 {
     width: 100%;
-    height: 250px;
+    height: 450px;
     border-radius: 3px;
   }
 
@@ -73,24 +73,24 @@
   .gallery-item-6 {
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 8;
+    grid-row-start: 7;
     grid-row-end: 10;
-    margin: -54px 2px 0 2px;
+    margin: 36px 2px 0 2px;
   }
 
   .gallery-item-7 {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 10;
-    grid-row-end: 13;
-    margin: 18px 1px 0 2px;
+    grid-row-start: 12;
+    grid-row-end: 16;
+    margin: 38px 1px 0 2px;
   }
 
   .gallery-item-8 {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start: 10;
-    grid-row-end: 13;
-    margin: 18px 2px 0 1px;
+    grid-row-start: 12;
+    grid-row-end: 16;
+    margin: 38px 2px 0 1px;
   }
 }
