@@ -6,6 +6,19 @@
     grid-template-rows: repeat(16, 90px);
     margin-top: 30px;
   }
+  
+  .gallery h3 {
+    padding-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .gallery {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
   .gallery h5 {
     width: 15em;
