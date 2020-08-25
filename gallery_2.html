@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/gallery_2.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index2.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
@@ -27,42 +28,77 @@
     </script>
 
     <div class="gallery">
-      <h3>
-        Galeria
-      </h3>
+      <h3>Galeria</h3>
       <h5>Abaixo é possível visualizar alguns dos nossos trabalhos</h5>
     </div>
 
-    <div class="gallery-test">
+    <div id="gallery-test">
       <div class="gallery-item gallery-item-1">
-        <img class="g2-im" src="images/teste-3.jpg" alt="" />
+        <img class="img-gallery-2 g2-im" src="images/teste-3.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-2">
-        <img class="g2-im-1" src="images/teste.jpg" alt="" />
+        <img class="img-gallery-2 g2-im-1" src="images/teste.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-3">
-        <img class="g2-im-1" src="images/teste.jpg" alt="" />
+        <img class="img-gallery-2 g2-im-1" src="images/teste.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-4">
-        <img class="g2-im-1" src="images/teste.jpg" alt="" />
+        <img class="img-gallery-2 g2-im-1" src="images/teste.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-5">
-        <img class="g2-im-2" src="images/teste-2.jpg" alt="" />
+        <img class="img-gallery-2 g2-im-2" src="images/teste-2.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-6">
-        <img class="g2-im-3" src="images/viga.jpg" alt="" />
+        <img class="img-gallery-2 g2-im-3" src="images/viga.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-7">
-        <img class="g2-im" src="images/teste-3.jpg" alt="" />
+        <img class="img-gallery-2 g2-im" src="images/teste-3.jpg" alt="" />
       </div>
       <div class="gallery-item gallery-item-8">
-        <img class="g2-im" src="images/teste-3.jpg" alt="" />
+        <img class="img-gallery-2 g2-im" src="images/teste-3.jpg" alt="" />
       </div>
     </div>
 
+    <div id="myModal" class="modal">
+      <span id="close-button" class="close cursor">&times;</span>
+      <div class="mySlides">
+        <img class="img-modal" src="images/teste-3.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal img-modal-1" src="images/teste.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal img-modal-1" src="images/teste.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal img-modal-1" src="images/teste.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal" src="images/teste-2.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal" src="images/viga.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal" src="images/teste-3.jpg" />
+      </div>
+
+      <div class="mySlides">
+        <img class="img-modal" src="images/teste-3.jpg" />
+      </div>
+    </div>
+
+    <script src="js/gallery_open.js"></script>
+
     <div class="row" id="container-bottom">
       <div class="d-flex flex-column" id="contact">
-        <strong style="font-size: 15pt;"><b>Contato</b></strong>
+        <strong style="font-size: 15pt"><b>Contato</b></strong>
         <h5>contact@businessname.com</h5>
         <h5>Whatsap: 1 2345-6789</h5>
         <h5>Fixo: 9 8765-4321</h5>
