@@ -10,6 +10,7 @@ function open() {
       showSlides((slideIndex = i + 1));
       modal.ontouchmove = function (e) {
         e.preventDefault();
+        e.style.zoom = "normal";
       };
     });
   }
