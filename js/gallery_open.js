@@ -9,8 +9,7 @@ function open() {
       modal.style.display = "block";
       showSlides((slideIndex = i + 1));
       modal.ontouchmove = function (e) {
-        e.preventDefault();
-        e.style.zoom = "normal";
+        e.style.overflow = "hidden"
       };
     });
   }
