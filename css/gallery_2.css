@@ -16,6 +16,7 @@
     height: 100%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 100px;
   }
   
   .close {
