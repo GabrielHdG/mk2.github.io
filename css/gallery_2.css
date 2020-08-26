@@ -21,7 +21,11 @@
   
   #myModal{
     overflow: hidden;
-  }
+  }  
+  
+  .mySlides{
+    overflow: hidden;
+  }  
   
   .close {
     position: absolute;
