@@ -93,7 +93,13 @@
         <img class="img-modal" src="images/teste-3.jpg" />
       </div>
     </div>
-
+  
+    <script>
+      $('body').bind('touchmove', function(e){
+        e.preventDefault()
+      })
+    </script>
+    
     <script src="js/gallery_open.js"></script>
 
     <div class="row" id="container-bottom">
