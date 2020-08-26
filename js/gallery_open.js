@@ -8,9 +8,8 @@ function open() {
     mainImages[i].addEventListener("click", function () {
       modal.style.display = "block";
       showSlides((slideIndex = i + 1));
-      modal.ontouchmove = function (e) {
-        e.style.overflow = "hidden"
-      };
+      modal.style.overflow = "hidden";
+      modal.style.overflowY = "hidden";
     });
   }
 }
