@@ -31,7 +31,6 @@
     display: none;
     justify-content: center;
     align-content: center;
-    position: fixed;
   }  
 
   #close-button{
@@ -40,7 +39,7 @@
 
   .img-modal{
     width: 95%;
-    align-self: center;
+    overflow: hidden;
   }
 
   .img-modal-1{
