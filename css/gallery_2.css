@@ -19,14 +19,6 @@
     background-color: rgba(0, 0, 0, 0.9);
   }
   
-  #myModal{
-    overflow: hidden;
-  }  
-  
-  .mySlides{
-    overflow: hidden;
-  }  
-  
   .close {
     position: absolute;
     top: 30px;
@@ -39,7 +31,7 @@
     display: none;
     justify-content: center;
     align-content: center;
-    overflow: hidden;
+    position: fixed;
   }  
 
   #close-button{
