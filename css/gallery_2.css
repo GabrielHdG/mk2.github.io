@@ -39,12 +39,12 @@
 
   .img-modal{
     width: 95%;
-    min-height: auto;
+    height: auto;
     overflow: hidden;
   }
 
   .img-modal-1{
-    min-height: auto;
+    height: auto;
     margin-top: -10px;
   }
 
