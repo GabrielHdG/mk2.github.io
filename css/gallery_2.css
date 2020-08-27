@@ -15,7 +15,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-y: hidden;
     background-color: rgba(0, 0, 0, 0.9);
   }
 
@@ -40,11 +40,15 @@
   .img-modal{
     width: 95%;
     height: auto;
+<<<<<<< HEAD
     align-self: center;
+=======
+    overflow: hidden;
+>>>>>>> 4c1e343deaf509d5f824604bd54e816f7147a719
   }
 
   .img-modal-1{
-    height: 550px;
+    height: auto;
     margin-top: -10px;
   }
 
