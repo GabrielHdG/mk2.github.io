@@ -3,13 +3,104 @@
   font-family: roboto;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1281px) {
+  h2,
+  h3,
+  h5,
+  b {
+    font-family: roboto;
+  }
+
+  .what-is {
+    padding-bottom: 0;
+  }
+
+  .what-is > h3 {
+    height: 130px;
+    padding-top: 60px;
+    align-self: center;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  #h3-how{
+    padding-top: 50px;
+  }
+
+  .text-1 {
+    width: 40%;
+    height: 165px;
+    padding-top: 20px;
+    text-align: justify;
+    border-bottom: 0.125em solid whitesmoke;
+  }
+
+  .text-2 {
+    width: 40%;
+  }
+
+  .text-3 {
+    width: 40%;
+    height: 165px;
+    padding-top: 20px;
+    text-align: justify;
+    border-bottom: 0.125em solid whitesmoke;
+  }
+
+  .what-is > .h3-3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .text-4 {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  #gallery-text {
+    color: black;
+    font-weight: bold;
+  }
+
+  .painting{
+    width: 40%;
+    height: auto;
+  }
+
+  #last-row > .painting-bottom{
+    width: 30%;
+    height: auto;
+    margin: 1px;
+  }
+
+  #container-bottom {
+    width: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+    margin-top: 160px;
+  }
+
+  #contact{
+    padding-top: 20px;
+    padding-left: 20%;
+  }
+
+  #bottom-do-bottom{
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  #bottom-do-bottom > p{
+    margin: 8px 0;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   h2,
   h3,
-  h5 {
+  h5,
+  b {
     font-family: roboto;
   }
 
@@ -28,10 +119,16 @@
 
   .what-is {
     border-bottom: 0.125em solid whitesmoke;
+    padding-bottom: 25px;
   }
 
   .what-is > h3 {
-    margin-left: 1.25em;
+    margin: 0;
+    padding: 20px 0 20px 35px;
+  }
+
+  #h3 {
+    width: 99%;
   }
 
   .what-is .painting {

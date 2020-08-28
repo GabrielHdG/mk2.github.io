@@ -4,20 +4,107 @@
 }
 
 @media (min-width: 1281px) {
-  .navbar-expand .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0;
+  li,
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .nav-link {
+    color: #333;
+    z-index: 2;
+    font-size: 17pt;
+    font-family: simplifica;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #nav-nav {
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 25px;
+  }
+
+  #nav-nav::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    z-index: -1;
+    background-color: whitesmoke;
+    opacity: 0.7;
+  }
+
+  .logo-2 {
+    width: 30%;
+    height: auto;
+  }
+
+  .nav-link {
+    color: #333;
+    font-size: 18pt;
+    font-weight: 400;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .nav-item > .nav-link:hover {
+    color: #333;
+  }
+
+  .nav-item > .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.01em;
+    bottom: 0.625em;
+    left: -2px;
+    right: 0;
+    background-color: #333;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .nav-item > .nav-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .logo-2 {
+    display: none;
+  }
+
   .navbar .navbar-nav li > a {
     font-family: simplifica;
   }
 
   .navbar {
     height: auto;
+    width: 100%;
     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .icon {
@@ -31,13 +118,12 @@
 
   .navbar > #nav-nav {
     display: none;
-    align-items: center;
-    justify-content: center;
     justify-items: center;
     grid-template-columns: auto;
     grid-template-rows: repeat(5, 50px);
     padding-bottom: 25px;
   }
+
   .navbar .icon {
     padding: 0.875em 1em;
     text-decoration: none;
